@@ -15,7 +15,7 @@
     width: 1000px;
 }
 
-/* main */
+/* section .header */
 #title{
     color: #E42D6E;
     text-align: center;
@@ -29,6 +29,34 @@
 }
 
 
+/* section blocks */
+.blocks::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.block{
+    background-color: black;
+    float: left;
+    width: calc(100% / 3);
+}
+
+.block:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.photo{
+    float: left;
+    height: 70px;
+}
+
+.info{
+    color: white;
+}
 
 /* debug */
 .container{
