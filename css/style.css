@@ -9,3 +9,28 @@
 *{
     font-family: 'Fredoka', sans-serif;;
 }
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* main */
+#title{
+    color: #E42D6E;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#lorem{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+/* debug */
+.container{
+    background-color: aquamarine;
+}
